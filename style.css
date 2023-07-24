@@ -1,0 +1,120 @@
+/* HERE IS THE UNIVERSAL SECTION DESIGN  >>>>>>>>>>>>>>>>>>>>>>>>>*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  background-color: #2b211d;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* HERE IS THE NAVIGATION BAR DESIGN >>>>>>>>>>>>>>>>>>>>>>>>>*/
+.navigation-bar {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-name h4 {
+  font-size: 20px;
+  color: #94add7;
+}
+.logo-name h4:hover {
+  font-size: 20px;
+  transition: 0.2s;
+  color: #7c73c0;
+}
+.left-side {
+  display: flex;
+  gap: 20px;
+}
+.left-side li {
+  list-style: none;
+}
+.left-side li a {
+  text-decoration: none;
+}
+.left-side li a:hover {
+  color: #94add7;
+  border-bottom: 2px solid #94add7;
+  transition: 0.3s;
+}
+
+/* HERE IS THE HOME SECTION DESIGN  >>>>>>>>>>>>>>>>>>>>>>>>>*/
+.image-container img {
+  width: 300px;
+  height: 350px;
+  object-fit: contain;
+  border-radius: 300px;
+  border: 1px solid red;
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.top-section,
+.text-section {
+  margin-top: 100px;
+}
+.text-section h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #468b97;
+  border-bottom: 2px solid red;
+}
+.text-section p {
+  font-size: 15px;
+  text-align: end;
+}
+
+/* HERE IS THE ABOUT SECTION DESIGN  >>>>>>>>>>>>>>>>>>>>>>>>>*/
+.about-section {
+  margin-top: 50px;
+}
+.about-section h2 span {
+  color: #468b97;
+}
+.about-section h2 {
+  border-bottom: 1px solid red;
+}
+.about-section p {
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 12px;
+}
+
+/* HERE IS THE BIOGRAPHY SECTION DESIGN  >>>>>>>>>>>>>>>>>>>>>>>>>*/
+.biography-section h2 {
+  margin-top: 50px;
+  color: #468b97;
+  border-bottom: 1px solid red;
+}
+.biography-section ul {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.biography-section li span {
+  color: #ffd1da;
+}
+.biography-section li img {
+  float: right;
+  height: 30px;
+  width: 100px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.biography-section .left {
+  float: left;
+  gap: 10px;
+}
+
+/* HERE IS THE CONTACT SECTION DESIGN  >>>>>>>>>>>>>>>>>>>>>>>>>*/
+.footer-section {
+  margin-top: 50px;
+}
